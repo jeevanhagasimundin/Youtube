@@ -11,6 +11,9 @@ It removes distractions like **Shorts, Recommendations, and Comments**, and also
 - ⚡ Simple and clean popup UI
 - 🔒 Works only on YouTube tabs (safe & lightweight)
 
+## 📸 Screenshots
+![Popup UI](Screenshots/image.png)
+
 ## 🛠 Installation (Load Unpacked)
 1. Clone this repository:
    ```bash
