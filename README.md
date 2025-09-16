@@ -12,7 +12,7 @@ It removes distractions like **Shorts, Recommendations, and Comments**, and also
 - 🔒 Works only on YouTube tabs (safe & lightweight)
 
 ## 📸 Screenshots
-![Popup UI](../Screenshots/image.png)
+![Popup UI](YT/Screenshots/image.png)
 
 
 
