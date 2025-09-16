@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YT Focus</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css"> </link>
+</head>
+<body>
+  <div class="container">
+    <div class="status-indicator" title="Extension is active"></div>
+    <h2>YT Focus Mode</h2>
+    
+    <div class="control-group">
+      <label for="speedSlider" class="label-text">
+        Playback Speed
+      </label>
+      <div class="speed-container">
+        <input type="range" id="speedSlider" min="0.2" max="4" step="0.1" value="1">
+        <span class="speed-value" id="speedVal">1.0x</span>
+      </div>
+    </div>
+    
+    <div class="toggle-group">
+      <div class="switch-container">
+        <span class="switch-label">Hide Shorts</span>
+        <label class="switch">
+          <input type="checkbox" id="toggleShorts">
+          <span class="slider"></span>
+        </label>
+      </div>
+      
+      <div class="switch-container">
+        <span class="switch-label">Hide Recommendations</span>
+        <label class="switch">
+          <input type="checkbox" id="toggleRecommendations">
+          <span class="slider"></span>
+        </label>
+      </div>
+      
+      <div class="switch-container">
+        <span class="switch-label">Hide Comments</span>
+        <label class="switch">
+          <input type="checkbox" id="toggleComments">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+    
+    <div class="footer">
+      Stay focused. Watch better.
+    </div>
+  </div>
+  <script src="popup.js"></script>
+  <script src="style.js"></script>
+</body>
+</html>
