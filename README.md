@@ -19,7 +19,7 @@ It removes distractions like **Shorts, Recommendations, and Comments**, and also
 
 ---
 
-### 5. **Folder Structure**  
+## **Folder Structure**  
 ```markdown
 ## 📂 Project Structure
 YT-Focus/
@@ -29,5 +29,11 @@ YT-Focus/
 │── style.js          # Extra styling logic (if any)
 │── manifest.json     # Chrome Extension config
 │── README.md         # Project documentation
+
+## 🧑‍💻 Tech Stack
+- HTML5
+- CSS3
+- JavaScript
+- Chrome Extension APIs
 
 
